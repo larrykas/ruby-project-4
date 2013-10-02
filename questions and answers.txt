@@ -1,0 +1,20 @@
+What are constants?
+
+A Ruby constant is like a variable, except that its value is supposed to remain constant for the duration of the program. 
+The Ruby interpreter does not actually enforce the constancy of constants, 
+but it does issue a warning if a program changes the value of a constant
+
+Why do we use them?
+
+We use constants if we intend to use a variable a number of times in our program. 
+That way we reserve a place for it in memory.
+
+How are they different than other ruby variables?
+
+Constants are meant to remain untouched through out the program execution. 
+In ruby constants could still be resigned if you persist. Constants return a warning if you try to resign them.
+But if you persist you can overwrite or resign them.
+
+How are these two statements different?
+     a == ‘hi’	# The double equal sign is a comparison operator which is supposed to turn a boolean.
+     a = ‘hi’	# Assigns a the value of 'hi'
